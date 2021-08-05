@@ -25,6 +25,14 @@
             <artifactId>aws-cloudformation-rpdk-java-plugin</artifactId>
             <version>[2.0.0,3.0.0)</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.group.project</groupId>
+            <artifactId>Project</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>/Users/sivrun/PreviewAWSTrebuchetBuild/src/AwsJavaSdk-Connect/build/lib/AwsJavaSdk-Connect-2.0.jar</systemPath>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -153,6 +161,12 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.4</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>3.0.0-M1</version>
+            </plugin>
+
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
